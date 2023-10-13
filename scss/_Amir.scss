@@ -1,5 +1,6 @@
 .amir{
 
+    // img Start //
     .img{
         width: 100%;
         height: 720px;
@@ -10,50 +11,50 @@
 
         h1{
             color: #FFF;
-font-family: Roboto;
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
-line-height: 55px; /* 110% */
+            font-size: 50px;
+            font-family: Roboto;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 55px; /* 110% */
         }
 
         p{
             color: #FFF;
-font-family: Roboto;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 23px; /* 135.294% */
-margin-top: 20px;
+            font-size: 17px;
+            font-family: Roboto;
+            font-weight: 400;
+            font-style: normal;
+            margin-top: 20px;
+            line-height: 23px; /* 135.294% */
         }
 
         h2{
             color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 142.857% */
-margin-top: 22px;
+            font-size: 14px;
+            font-family: Roboto;
+            font-weight: 400;
+            font-style: normal;
+            margin-top: 22px;
+            line-height: 20px; /* 142.857% */
         }
 
         h3{
             color: #FFF;
-font-family: Roboto;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: 23px; /* 135.294% */
-margin-top: 55px;
+            font-size: 17px;
+            font-family: Roboto;
+            font-weight: 700;
+            font-style: normal;
+            margin-top: 55px;
+            line-height: 23px; /* 135.294% */
         }
         h4{
             color: #FFF;
-font-family: Roboto;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: 23px; /* 135.294% */
-margin-top: 15px;
+            font-size: 17px;
+            font-family: Roboto;
+            font-weight: 700;
+            font-style: normal;
+            margin-top: 15px;
+            line-height: 23px; /* 135.294% */
         }
 
         .text{
@@ -81,10 +82,95 @@ margin-top: 15px;
                 width: 5px;
                 height: 22px;
                 border-radius: 4px;
-background: #615E5C;
+                background: #615E5C;
                 position: absolute;
                 top: 311px;
                 left: -25px;
+            }
+        }
+    }
+
+    // img End //
+
+    .img2{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        // border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        .text{
+            width: 500px;
+            height: 500px;
+            // border: 1px solid red;
+            img{
+                margin-top: 10px;
+                margin-left: -8px;
+            }
+
+            h1{
+                color: #1B365D;
+                font-size: 50px;
+                font-family: Roboto;
+                font-weight: 700;
+                font-style: normal;
+                margin-left: -8px;
+                margin-top: 10px;
+            }
+
+            p{
+                color: #615E5C;
+                font-size: 17px;
+                font-family: Roboto;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 23px; /* 135.294% */
+                margin-left: -8px;
+                margin-top: 15px;
+            }
+
+            button{
+                width: 127px;
+                flex-shrink: 0;
+                height: 46px;
+                border-radius: 24px;
+                background: #ADD4E0;
+                border: 1px solid #ADD4E0;
+                cursor: pointer;
+                margin-left: -8px;
+                margin-top: 30px;
+
+                a{
+                    color: #1B365D;
+                    font-family: Roboto;
+                    text-align: center;
+                    font-style: normal;
+                    font-size: 14px;
+                    line-height: 20px; /* 142.857% */
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .img3{
+            width: 800px;
+            height: 500px;
+            // border: 1px solid blue;
+            background-image: url("/imgAmir/Rectangle\ \(1\).png");
+            display: flex;
+            flex-direction: column;
+
+            p{
+                color: #AEABA8;
+                font-family: Roboto;
+                text-align: center;
+                font-style: normal;
+                font-size: 11px;
+                line-height: 18px; /* 163.636% */
+                font-weight: 400;
+                margin-top: 520px;
             }
         }
     }

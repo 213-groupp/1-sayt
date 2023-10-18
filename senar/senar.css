@@ -11,7 +11,7 @@
 
     width: 410px;
      height: 100px;
-          margin-top: 310px; 
+          margin-top: 410px; 
           margin-left:10px;
 }
 .footer{
@@ -47,14 +47,14 @@ color: white; position:relative;
      width: 100%; 
   text-align: center;
     margin:auto;
-    margin-top:200px;
+  
  background-color: rgb(243, 237, 237); 
- margin-top: 360px;
+ 
 }
 .boxses2{
 
     margin-top: 220px; 
-     margin-left: 100px;
+     margin-left: 50px;
      color:black;
      font-family: Impact, Haettenschweiler,
       'Arial Narrow Bold', sans-serif;
@@ -65,20 +65,21 @@ color: white; position:relative;
 .text2{
     width: 410px;
      height: 100px;; 
-       margin-top: 310px;
+       margin-top: 410px;
         margin-left: 40px;
 }
 .box1{
     background-color: rgb(235, 221, 221);
     width: 100%;
-    height: 500px;
+    height: 650px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .box2{
-    background-color: lightskyblue;
+  
+   background-color: lightskyblue;
     width:100%;
     /* margin: auto; */
-    height: 500px;
+    height: 570px;
 }
 .foto{
     width: 100%;
@@ -102,9 +103,10 @@ color: white; position:relative;
 .boxses1 img:hover{
     transform:scale(1.1);
 border-radius:40px;
-    transition:4s ease-in-out linear;
+    transition:1s  linear;
     box-shadow: 6px 10px 40px black;
 }
+
 .text h1:hover{
     color:blue;
 }
@@ -114,10 +116,10 @@ border-radius:40px;
 /* slider start437 */
 .img-slider{
     position: relative;
-    width: 1070px;
-    height: 430px;
+    width: 1000px;
+    height: 500px;
   top:100px;
-  background: #6b8293;
+  /* background: #6b8293; */
  margin:auto;
  
 }
@@ -141,6 +143,7 @@ clip-path: circle(150% at 30% 150%);
 .img-slider .slide img{
     z-index: 1;
     width: 100%;
+    height:550px;
     border-radius: 5px;
 
 } 
@@ -373,8 +376,8 @@ font-size: 14px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    
-        margin-left: -120px;
+    justify-content: center;
+        /* margin-left: -120px;/ */
     }
     
     .boxses1 img {

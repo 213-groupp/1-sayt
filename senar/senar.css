@@ -102,7 +102,7 @@ color: white; position:relative;
 }
 .boxses1 img:hover{
     transform:scale(1.1);
-border-radius:40px;
+border-radius:5px;
     transition:1s  linear;
     box-shadow: 6px 10px 40px black;
 }
@@ -436,7 +436,7 @@ font-size: 14px;
 } 
 
 
-/* ----- */
+/*a -----  text */
 .home .home-text{
     text-align:center;
     z-index:2;
@@ -485,6 +485,11 @@ font-size: 14px;
     overflow:hidden;
 
 }
+.home .home-text span{
+    margin-left:100px;
+    width:460px;
+}
+
 @keyframes textIn {
     0%{
         transform:translateY(100%); 
